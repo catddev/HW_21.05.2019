@@ -16,8 +16,8 @@ int main() {
 		l.push_back(6);
 
 		l.insert_by_pos(222, 2);
-		l.insert_by_pos(333, 4);//именно если при четном списке в позицию size/2 добавлять, вылетает
-		//l.insert_by_pos(444, 5);
+		//l.insert_by_pos(333, 4);//именно если при четном списке в позицию size/2 добавлять, вылетает
+		l.insert_by_pos(444, 5);
 		
 
 		//l.del_by_pos(6);

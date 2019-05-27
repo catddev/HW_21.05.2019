@@ -146,6 +146,7 @@ inline void List<T>::insert_by_pos(T el, int pos)throw()
 	int counter1 = 0;
 	int counter2 = getSize() - 1;
 
+
 	if (pos == 0)
 		push_front(el);
 	else if (pos == size)
