@@ -162,7 +162,7 @@ inline void List<T>::insert_by_pos(T el, int pos)throw()
 			counter1++;
 			counter2--;
 		}
-		if (counter1 == pos) {//test till middle of the list
+		if (counter1 == pos) {
 			
 			Node *newPtr = new Node(el, begin_ptr, tmp_b /*begin_ptr->getPrevPtr()*/);// works, but if using  as prevPtr (begin_ptr->getPrevPtr()) it is always NULL? чтение невозможно
 			begin_ptr->getPrevPtr() = newPtr;
